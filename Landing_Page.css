@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background-color: #361172;
+    padding: 1rem 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid #ddd;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header .logo {
+    max-width: 100px;
+}
+
+header .header-text {
+    text-align: left;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.purpose-link {
+    color: #FFCC00;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.purpose-link:hover {
+    color: #fff;
+}
+
+main {
+    background: url('images/college-background.jpg') no-repeat center center/cover;
+    padding: 2rem 0;
+    min-height: calc(100vh - 160px); 
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .left,
+.main-content .right {
+    width: 48%;
+}
+
+.main-content h2 {
+    color: #4d4d4d;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.main-content p {
+    margin-bottom: 1.5rem;
+}
+
+form {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form select,
+form input[type="radio"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background: #461b78;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #0069cb;
+}
+
+footer {
+    background-color:#361172;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 2px solid #ddd;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .footer-image {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Landing Page</title>
+    <link rel="stylesheet" href="Landing_Page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('best.png'); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="snjb2.png" alt="College Logo" class="logo">
+                <div class="header-text">
+                    <h1>SNJB'S KBJ COE, NASHIK</h1>
+                    <p>College of Science, Engineering & Technology</p>
+                </div>
+                <a href="#" class="purpose-link">FIND YOUR PURPOSE</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-content">
+                <div class="left">
+                    <h2>ABOUT COLLEGE</h2>
+                    <p>The Jain Gurukul campus has various faculties, out of which the SNJB's Late Sau Kantabai Bhavarlalji Jain College of Engineering, which is approved by the All India Council of Technical Education (AICTE), New Delhi and Government of Maharashtra and is affiliated to the University of Pune, was established in the year 2004 with four branches viz. Mechanical Engineering, Computer Engineering, Electronics & Telecommunications Engineering, and Civil Engineering.
+
+                        The year 2010 saw the assimilation of the MBA under the SNJB's Late Sau Kantabai Bhavarlalji Jain College of Engineering. Similarly, the year 2020 viewed the establishment of a new branch of Artificial Intelligence and Data Science.
+                        
+                        This college has a fascinating infrastructure and well-furnished and well-equipped laboratories. A technologically full-fledged auditorium, spacious classrooms, and a well-developed central library with thousands of volumes constitute the profound features of the college. Every department has a separate departmental library.
+                        
+                        An army of technicians is employed in every department to resolve the technical problems. The college has a separate Training and Placement cell that contributes in training the students for interviews and their placement after the completion of their degree courses.
+                        
+                        Chandwad town, situated in a taluka region, boasts convenient access to essential amenities. Located at a distance of 65 km from Nasik, it enjoys excellent road connectivity through NH 3. The town is also easily accessible from Manmad railway station, which is 24 km away, and can be reached via Nasik (Ojhar) airport, located 55 km from Chandwad</p>
+                </div>
+                <div class="right">
+                    <h2>Contact Us</h2>
+                    <form action="submit_form.php" method="POST">
+                        <label for="name">Enter Your Name *</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Enter Your Email *</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="field">Choose Your Field of Interest *</label>
+                        <select id="field" name="field" required>
+                            <option value="">Choose your field of interest</option>
+                            <option value="mechanical">Mechanical Engineering</option>
+                            <option value="civil">Civil Engineering</option>
+                            <option value="entc">Electronics and Telecommunication Engineering</option>
+                            <option value="computer">Computer Engineering</option>
+                            <option value="aids">Artificial Intelligence and Data Science</option>
+                        </select>
+
+                        <label for="query">Enter Your Querry *</label>
+                        <textarea id="query" name="query" rows="4" required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <img src="snjblogo.png" alt="College Footer Image" class="footer-image">
+                <p>&copy; 2024 SNJB'S KBJ COE, NASHIK. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
